@@ -1,0 +1,45 @@
+.nav-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 0;
+}
+
+.benefits-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 0;
+    display: flex;
+}
+
+.products-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.subfooter-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+

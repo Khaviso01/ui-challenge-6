@@ -1,0 +1,23 @@
+.subfooter {
+    background-color: #24282f;
+    min-height: 320px;
+}
+
+.item-1 p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.item-2-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item-3-card  {
+    width: 300px;
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    border-radius: 20%;
+    color: rgb(7, 7, 7);
+}

@@ -1,0 +1,25 @@
+.products {
+    background-color: #191d25;
+    min-height: 350px;
+    padding: 80px 0;
+}
+
+.products-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.first-prod, .second-prod, .third-prod {
+    flex: 1;
+}
+
+
+h3 {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.prod-desc {
+    color: rgb(125, 125, 125);
+}

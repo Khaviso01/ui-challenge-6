@@ -3,9 +3,9 @@ import Image5  from '../../assets/images/image-5.jpg'
 
 function Subfooter() {
   return (
-    <section className="subfooter">
+    <section id="blog" className="subfooter">
             <div className="subfooter-container">
-                <div className="item-1">
+                <div className="item-1-text">
                   <p>Just imagine seeds and summer in gell sunshine</p>
                 </div>
                 <div className="item-2-image">

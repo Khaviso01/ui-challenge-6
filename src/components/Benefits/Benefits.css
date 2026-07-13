@@ -23,14 +23,14 @@
 
 .benefits-content {
     display: flex;
-    align-items: flex-start;
     gap: 50px;
 }
 
 .benefits-orange-img {
     height: 100px;
     width: 100px;
-    margin-top: 3rem
+    margin-top: 3rem;
+    border-radius: 5px;
 }
 
 .benefits-left p {
@@ -43,8 +43,8 @@
 .benefits-btn {
     font-weight: 800;
     background-color: #dd6f02;
-    border-radius: 5%;
-    padding: 15px 41px;
+    border-radius: 5px;
+    padding: 15px 25px;
     font-size: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -53,8 +53,28 @@
 }
 
 .benefits-image {
-   height: 320px;
-   width: 350px;
+   aspect-ratio: 1/1;
+   object-fit: cover;
    max-width: 420px;
    display: block;
+   margin-top: 50px;
+   margin-bottom: 40px;
+   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .benefits-container, .benefits-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefits-right {
+        align-content: center;
+        align-items: center;
+    }
+
+    .benefits-right img {
+        height: 100%;
+        width: 100%;
+    }
 }

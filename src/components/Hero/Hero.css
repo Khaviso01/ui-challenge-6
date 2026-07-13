@@ -4,16 +4,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 650px;
-
+     padding-top: 70px;
 }
 
 .hero-top {
     display: flex;
-    margin-bottom: 1rem;
     align-items: center;
-    padding: 30px 0;
-    gap: 50rem;
+    justify-content: center;
+    padding:30px 0;
+    width: 100%;
 }
 
 .hero-pr {
@@ -22,13 +21,13 @@
 
 
 
-.hero-title{
+.hero-title {
     color: #fff;
     font-size: 6rem;
     font-weight: 800;
 }
 
-.hero-text{
+.hero-text {
     font-size: 1rem;
     line-height: 2rem;
     margin-top: 1rem;
@@ -39,27 +38,25 @@
 .hero-btn {
     font-weight: 800;
     background-color: #dd6f02;
-    border-radius: 5%;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 15px 25px;
     font-size: 1rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color: #fff;
     transition: 0.3s ease;
-    width: 15%;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     color: #000000;
 }
 
 .signin-btn {
+    margin-left: auto;
     font-weight: 800;
     background-color: #dd6f02;
-    border-radius: 5%;
+    border-radius: 5px;
     padding: 15px;
     font-size: 1rem;
-    margin-top: 3rem;
     color: #fff;
-    width: 100px;
 }

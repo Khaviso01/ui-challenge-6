@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Benefits from './components/Benefits/Benefits'
 import Products from './components/Products/Products'
 import Subfooter from './components/Subfooter/Subfooter'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Benefits/>
     <Products/>
     <Subfooter/>
+    <Footer/>
     </div>
   )
 }

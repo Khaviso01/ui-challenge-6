@@ -1,6 +1,10 @@
 .navbar {
     background-color: #191d25;
     padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 
@@ -13,8 +17,6 @@
 .navbar-logo img {
     height: 50px;
     width: 50px;
-    align-items: center;
-    justify-content: center;
 }
 
 .navbar-logo p {
@@ -26,7 +28,8 @@
 
 .navbar-menu {
     display: flex;
-    gap: 2rem; 
+    gap: 2rem;
+    align-items: center;
 }
 
 .navbar-menu a {
@@ -37,15 +40,10 @@
 }
 
 .navbar-menu a:hover {
-    color: #ffd000;
+    color: #dd6f02;
 }
 
-.navbar-actions {
-    gap: 2rem;
-    display: flex;
-}
-
-.navbar-actions button {
+.navbar-menu button {
     height: 60px;
     width: 60px;
     color: #ffffff;
@@ -57,19 +55,40 @@
     background: #2c3139;
 }
 
-.navbar-actions button:hover {
+.navbar-menu button:hover {
     color: #dd6f02;
 }
 
-.navbar-actions button:first-child {
-    border-right: none;
+
+.hamburger-menu {
+    display: none;
 }
 
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
 
+    .navbar-menu {
+        display: none;
+    }
 
-
-
-
-
-
-
+    .navbar-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        text-align: left;
+        position: absolute;
+        padding: 40px;
+        gap: 20px;
+        z-index: 1000;
+        left: 0;
+        width: 100vw;
+        min-height: 100vh;
+        top: 100%;
+        background-color: #191d25;
+    }
+}

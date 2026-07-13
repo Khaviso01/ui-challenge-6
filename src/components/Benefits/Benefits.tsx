@@ -4,7 +4,7 @@ import Image1 from '../../assets/images/image-1.png'
 
 function Benefits() {
     return (
-        <section className="benefits">
+        <section id="pages" className="benefits">
             <div className="benefits-container">
 
                 <div className="benefits-left">

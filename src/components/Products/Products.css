@@ -8,9 +8,10 @@
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 5px;
 }
 
-.first-prod, .second-prod, .third-prod {
+.product-item {
     flex: 1;
 }
 
@@ -22,4 +23,15 @@ h3 {
 
 .prod-desc {
     color: rgb(125, 125, 125);
+}
+
+@media (max-width: 768px) {
+    .products-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-item {
+        margin-bottom: 45px;
+    }
 }

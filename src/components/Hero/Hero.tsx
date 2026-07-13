@@ -3,15 +3,15 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <section className="hero">
+        <section id="home" className="hero">
             <div className="hero-container">
 
-                <span className="hero-top">
+                <div className="hero-top">
                     <p className="hero-pr">Premium Restaurant</p>
                     <button className="signin-btn">
                         SIGN IN
                     </button>
-                </span>
+                </div>
 
                 <h1 className="hero-title">
                     Anida <br />Dedelay

@@ -1,0 +1,105 @@
+.footer {
+    background-color: #1a1e25;
+    min-height: 350px;
+    padding: 80px 0;
+}
+
+.footer-image-last {
+    height: auto;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.menu-benefit-container {
+    flex: 1;
+}
+
+.benefit-items {
+    display: flex;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-benefit-container img {
+    aspect-ratio: 1/1;
+    width: 60px;
+    height: 60px;
+}
+
+.menu-benefit-container h2 {
+    padding: 0px 5px;
+}
+
+.menu-benefit-container h2, .opening-hrs-container h2 {
+   color: #fff;
+   margin-bottom: 35px;
+   font-size: 28px;
+}
+
+.menu-benefit-container h4 {
+   color: #fff;
+   padding: 10px;
+}
+
+.menu-benefit-container p {
+   color: rgb(125, 125, 125);
+   width: 150px;
+}
+
+tr {
+    color: rgb(165, 165, 165);
+    margin-bottom: 5rem;
+}
+
+td {
+    padding: 10px 0px;
+    width: 90%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #7a7a7a;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px
+}
+
+.footer-links a {
+     color: rgb(165, 165, 165);
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #dd6f02;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefit-card {
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+}

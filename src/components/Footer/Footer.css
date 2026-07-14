@@ -6,7 +6,7 @@
 
 .footer-image-last {
     height: auto;
-    width: 350px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -40,6 +40,11 @@
    color: #fff;
    margin-bottom: 35px;
    font-size: 28px;
+}
+
+.opening-hrs-container {
+    border-left: 1px solid #7a7a7a;
+    padding: 20px;
 }
 
 .menu-benefit-container h4 {

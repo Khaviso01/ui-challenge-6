@@ -72,6 +72,10 @@
         flex-direction: column;
     }
 
+    .benefits-left {
+        display: block;
+    }
+
     .benefits-right {
         align-content: center;
         align-items: center;

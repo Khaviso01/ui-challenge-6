@@ -32,7 +32,6 @@
     font-size: 1rem;
     line-height: 2rem;
     margin-top: 1rem;
-    width: 400px;
     font-weight: 700;
 }
 
@@ -48,10 +47,6 @@
     transition: 0.3s ease;
 }
 
-.hero-btn:hover {
-    color: #000000;
-}
-
 .signin-btn {
     margin-left: auto;
     font-weight: 800;
@@ -60,6 +55,10 @@
     padding: 15px;
     font-size: 1rem;
     color: #fff;
+}
+
+.hero-btn:hover, .signin-btn:hover {
+    color: #000000;
 }
 
 @media (max-width: 768px) {

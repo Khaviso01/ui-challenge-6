@@ -61,25 +61,27 @@ function Footer() {
           <div className="hours-items">
 
             <table>
-              <tr>
-                <td>Monday</td>
-                <td>17:00</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>17:00</td>
+                </tr>
 
-              <tr>
-                <td>Tuesday</td>
-                <td>13:60</td>
-              </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>13:60</td>
+                </tr>
 
-              <tr>
-                <td>Wednesday</td>
-                <td>19:00</td>
-              </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>19:00</td>
+                </tr>
 
-              <tr>
-                <td>Thursday</td>
-                <td>13:00</td>
-              </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>13:00</td>
+                </tr>
+              </tbody>
 
             </table>
 

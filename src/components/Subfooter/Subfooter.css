@@ -50,6 +50,12 @@
     margin-top: 20px;
 }
 
+.subfooter-btn:hover {
+    color: #000000;
+}
+
+
+
 @media (max-width: 768px) {
     .subfooter-container {
         display: flex;

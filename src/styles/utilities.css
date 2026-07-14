@@ -11,14 +11,12 @@
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 10px 0;
 }
 
 .benefits-container {
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 10px 0;
     display: flex;
 }
 
@@ -26,7 +24,6 @@
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 10px 0;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -36,7 +33,6 @@
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 10px 0;
     display: flex;
     gap: 2rem;
     align-items: st;
@@ -47,7 +43,6 @@
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 10px 0;
     display: flex;
     gap: 2rem;
     justify-content: center;

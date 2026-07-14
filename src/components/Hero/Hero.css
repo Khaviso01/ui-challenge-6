@@ -65,4 +65,12 @@
     .hero-title {
         font-size: 60px;
     }
+    
+    .hero-top {
+        display: block;
+    }
+
+    .hero-pr{
+        margin-bottom: 20px;
+    }
 }

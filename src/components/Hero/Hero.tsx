@@ -14,7 +14,7 @@ function Hero() {
                 </div>
 
                 <h1 className="hero-title">
-                    Anida <br />Dedelay
+                    Anida <br/>Dedelay
                 </h1>
 
                 <p className="hero-text">

@@ -1,10 +1,10 @@
 .benefits {
     background-color: #24282f;
-    min-height: 200px;
 }
 
 .benefits-left {
     flex: 1;
+    padding: 0 50px;
 }
 
 .benefits-right {
@@ -15,9 +15,9 @@
 
 .benefits-title {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -35,7 +35,6 @@
 
 .benefits-left p {
     font-size: 1.3rem;
-    max-width: 400px;
     line-height: 1.8;
     margin-bottom: 30px;
 }

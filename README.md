@@ -1,6 +1,6 @@
-# Clipboard Landing Page
+# UI Challenge
 
-A modern, responsive landing page for Clipboard - a clipboard management application. Built with React, TypeScript, and Vite, featuring a fully responsive design that adapts seamlessly across all device sizes.
+A modern, responsive restaurant application. Built with React, TypeScript, and Vite, featuring a fully responsive design that adapts seamlessly across all device sizes.
 
 ## Features
 
